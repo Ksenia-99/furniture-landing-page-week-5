@@ -1,0 +1,324 @@
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 100px;
+}
+
+.header-div-container {
+    display: flex;
+}
+
+.logo-box {
+    height: 41px;
+    margin: 29px 0 0 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.site-nav {
+    height: 24px;
+    margin: 39px 0 0 266px;
+}
+
+.site-nav a {
+    margin-left: 38px;
+}
+
+.icons-nav {
+    display: flex;
+    margin: 36px 0 0 231px;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+header a,
+.nav-help a,
+.nav-links a,
+.nav-newsletter a {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+header a:hover,
+.nav-help a:hover,
+.nav-links a:hover,
+.nav-newsletter a:hover {
+    color: #666;
+}
+
+header a:active,
+.nav-help a:active,
+.nav-links a:active,
+.nav-newsletter a:active {
+    color: #b88e2f;
+}
+
+.ad-container {
+    background-image: url('../assets/img/interior-background.jpg');
+    height: 563px;
+    padding: 153px 0 0 0;
+    margin-bottom: 120px;
+}
+
+.furniro-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+}
+
+.ad-box {
+    border-radius: 10px;
+    background-color: #fff3e3;
+    margin: 0 58px 0 700px;
+    padding: 62px 56px 46px 41px;
+}
+
+.ad-box h1 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #b88e2f;
+    margin-bottom: 17px;
+}
+
+.ad-box-title {
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+}
+
+.ad-box-description {
+    font-size: 18px;
+    margin-bottom: 46px;
+}
+
+.ad-box button,
+.inspirations-box button {
+    background-color: #b88e2f;
+    border: none;
+}
+
+.ad-box button {
+    width: 180px;
+    height: 60px;
+}
+
+.inspirations-box button {
+    width: 200px;
+    height: 40px;
+}
+
+.ad-box button span,
+.inspirations-box button span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.furniro-range {
+    height: 685px;
+    margin-bottom: 69px;
+}
+
+.furniro-range span,
+.furniro-range h3 {
+    color: #333;
+}
+
+.furniro-range h3 {
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 0 446px 20px 500px;
+}
+
+.furniro-range p {
+    color: #666;
+    font-size: 20px;
+    margin: 0 300px 62px 370px;
+}
+
+.furniro-range-gallery {
+    display: flex;
+    margin: 0 40px 0 40px;
+}
+
+.furniro-range-gallery div img {
+    border-radius: 10px;
+}
+
+.furniro-range-gallery span {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 30px 130px 0 130px;
+    display: inline-block;
+}
+
+.inspirations-box {
+    background-color: #FCF8F3;
+    display: flex;
+    padding: 24px 0 0 0;
+    margin-bottom: 67px;
+}
+
+.inspirations-box-title {
+    margin: 0 0 0 100px;
+}
+
+.inspirations-gallery {
+    margin: 0 100px 24px 200px;
+}
+
+.inspirations-box h3,
+.funirofurniture-gallery h3 {
+    color: #3A3A3A;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.inspirations-box h3 {
+    line-height: 120%;
+    margin: 200px 0 20px 0;
+}
+
+.inspirations-box p {
+    color: #616161;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.funirofurniture-gallery {
+    margin-bottom: 50px;
+}
+
+.funiro-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.pic-3 {
+    margin: 73px 16px 16px 16px;
+}
+
+.pic-4 {
+    margin: 130px 16px 16px 0;
+}
+
+.pic-5 {
+    margin: 72px 16px 0 0;
+}
+
+.pic-7 {
+    margin: -124px 16px 0 16px;
+}
+
+.pic-8 {
+    margin: -124px 16px 0 0;
+}
+
+.pic-9 {
+    margin: -90px 0 0 280px;
+}
+
+.pic-10 {
+    margin: -44px 16px;
+}
+
+.funirofurniture-gallery p {
+    font-size: 20px;
+    color: #616161;
+    line-height: 150%;
+    margin: 0 400px 0 520px;
+}
+
+.funirofurniture-gallery h3 {
+    margin: 0 400px 20px 460px;
+}
+
+.funiro-name {
+    margin-bottom: 50px;
+    color: #000;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+footer {
+    padding: 48px 0 48px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.footer-container {
+    display: flex;
+    margin-bottom: 34px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.nav-links,
+.nav-help {
+    display: flex;
+    flex-direction: column;
+}
+
+.funiro-address-box {
+    margin: 0 138px 10px 80px;
+}
+
+.nav-links {
+    margin: 0 136px 0 0;
+}
+
+.nav-help {
+    margin: 0 72px 0 0;
+}
+
+.nav-newsletter {
+    margin: 0 160px 0 0;
+}
+
+address,
+.nav-help-title,
+.nav-links-title,
+.nav-newsletter-title {
+    color: #9F9F9F;
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+
+.email-address {
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: 'Poppins';
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
+.subscribe-box {
+    display: flex;
+    margin-top: 45px;
+}
+
+.subscribe-button {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.copyright {
+    font-size: 16px;
+    margin: 0 0 0 80px;
+}
